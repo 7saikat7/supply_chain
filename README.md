@@ -1,7 +1,9 @@
 # supply_chain
 Welcome To Supply Chain App [ Shipp It ]
 
-In Ship it we are creating a SAAS product to for a entire supply chain from receiving order from a e-com/store to the end user 
+In "Shipp It" we are creating a SAAS product to for a entire supply chain from receiving order from a e-com/store to the end user .
+This software will be ready to use, for any kind of users and at any scale ,from the business class to startup and indivisual level,differet role based authentication and accesses will let indivisual seller more clarity for their small business ,real time updates of product.
+Proper details for any kind of delay or late shipment  directlty form very interactive app by the delivery personal .
 
 ** Features **
 * Real time tracking with multi admin system 
@@ -10,4 +12,4 @@ In Ship it we are creating a SAAS product to for a entire supply chain from rece
 * OTP based authentication 
 
 ** Languages & Tools **
-Python, Django ,Django-Rest-Framework, Js ,Html,Css,postgresql
+Python, Django ,Django-Rest-Framework,Android App,React , Js ,Html,Css,postgresql
