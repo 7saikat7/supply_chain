@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+/__init__
 # Django stuff:
 *.log
 local_settings.py
@@ -22,11 +23,11 @@ vulcan_database/
 __pypackages__/
 
 
-# Environments
+# Own Environments
 .env
 .venv
 env/
-supply/
+ship/
 venv/
 ENV/
 env.bak/
