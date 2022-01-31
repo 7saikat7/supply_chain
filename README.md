@@ -12,4 +12,4 @@ Proper details for any kind of delay or late shipment  directlty form very inter
 * OTP based authentication 
 
 # Languages & Tools 
-Python, Django ,Django-Rest-Framework,Android App,React , Js ,Html,Css,postgresql
+Python,Django,Django-Rest-Framework,Flutter,React,Js,Html,Css,postgresql
