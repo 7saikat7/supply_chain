@@ -28,6 +28,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
+        cd Supply_Chain
         python manage.py test
         python manage.py makemigrations
         python manage.py migrate
