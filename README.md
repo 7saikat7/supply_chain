@@ -6,12 +6,12 @@ Welcome To Supply Chain App [ Shipp It ]
 
 # Goal
 
-To creat a full solution[web+app] for the entire supply chain from receiving the order from an e-com/store to sending it to the end user .
+To create a full solution[web+app] for the entire supply chain from receiving the order from an e-com/store to sending it to the end user .
 
 
 # About
 
- "Shipp It" is a Full-scale logistic service by which any seller i.e. from big companies to individual small sellers can deliver their product to their desired customer. This software will be ready to use, for any kind of users and at any scale - from the business class to startup and individual level. Different role based authentication and accesses will let individual seller more clarity for their small business. It will give real time updates of the products with location tracking.
+ "Shipp It" is a Full-scale logistic service. Using "Shipp It" big companies to individual small sellers anyone can deliver their product to their desired customer. This software will be ready to use, for any kind of users and at any scale - from the business class to startup and individual level. Different role based authentication and accesses will let individual seller get more clarity for their small business. It will also give real time updates of the products with location tracking.
 Proper details for any kind of delay or late shipment will be conveyed directlty by the delivery personal from very interactive app.
 
 
@@ -29,6 +29,7 @@ Proper details for any kind of delay or late shipment will be conveyed directlty
 * Flutter, React
 * HTML, CSS, Javascript
 * PostgreSQL
+
 
 # Contributors
 
