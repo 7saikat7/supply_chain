@@ -32,14 +32,14 @@ Proper details for any kind of delay or late shipment will be conveyed directlty
 
 # Contributors
 
-![image](https://user-images.githubusercontent.com/84222590/151922869-954f2f1e-8ee8-45d6-aa49-8294fc53627b.png)
-![image](https://user-images.githubusercontent.com/84222590/151922912-2d19dd2b-acb0-486d-ba5b-d6c80207648e.png)
-![image](https://user-images.githubusercontent.com/84222590/151924656-66f348eb-42b8-4f42-9787-b366cbfd6978.png)
+• Saikat Mukherjee
+• Soumalya Bhattacharya
+• Shreshtha Sadhu
 
 
 # Maintainers
 
-![image](https://user-images.githubusercontent.com/84222590/151923059-1590601d-5cd7-4033-87d1-6edb358e956b.png)
+• Saikat Mukherjee
 
 
 # Participating under JWoC 2K22
