@@ -1,15 +1,53 @@
 # Shipp It
 Welcome To Supply Chain App [ Shipp It ]
 
-In "Shipp It" we are creating a full solution[web+app] for a entire supply chain from receiving order from a e-com/store to sending it to the end user .
-This software will be ready to use, for any kind of users and at any scale ,from the business class to startup and indivisual level,differet role based authentication and accesses will let indivisual seller more clarity for their small business ,real time updates of product.
-Proper details for any kind of delay or late shipment  directlty form very interactive app by the delivery personal .
+![image](https://user-images.githubusercontent.com/84222590/151915204-0edff92c-fbef-464b-87b3-aae40227dd50.png)
+
+
+# Goal
+
+To create a full solution[web+app] for the entire supply chain from receiving the order from an e-com/store to sending it to the end user .
+
+
+# About
+
+ "Shipp It" is a Full-scale logistic service. Using "Shipp It" big companies to individual small sellers anyone can deliver their product to their desired customer. This software will be ready to use, for any kind of users and at any scale - from the business class to startup and individual level. Different role based authentication and accesses will let individual seller get more clarity for their small business. It will also give real time updates of the products with location tracking.
+Proper details for any kind of delay or late shipment will be conveyed directlty by the delivery personal from very interactive app.
+
 
 # Features 
+
 * Real time tracking with multi admin system 
 * User friendly interactive platform
 * Different permission based dashboard/ features for supporting startup 
 * OTP based authentication 
 
+
 # Languages & Tools 
-Python,Django,Django-Rest-Framework,Flutter,React,Js,Html,Css,postgresql
+
+* Python, Django, Django-Rest-Framework(DRF)
+* Flutter, React
+* HTML, CSS, Javascript
+* PostgreSQL
+
+
+# Contributors
+
+• Saikat Mukherjee
+• Soumalya Bhattacharya
+• Shreshtha Sadhu
+
+
+# Maintainers
+
+• Saikat Mukherjee
+
+
+# Participating under JWoC 2K22
+
+# Mentor
+
+Mentor for this project is Saikat Mukherjee. Github profille :- https://github.com/7saikat7
+
+![image](https://user-images.githubusercontent.com/84222590/151915606-51cc2d4f-beb6-426b-a558-9bfbbca1bb3f.png)
+
