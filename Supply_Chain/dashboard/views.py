@@ -15,10 +15,15 @@ def contact_list(request):
 
 @api_view(['GET'])
 def contact_detail(request):
+    res = {}
     obj_id = request.GET.get('id')
-    contact = ContactInfo.objects.get(id = obj_id)
-    serializer = ContactSerializer(contact , many = False)
-    return Response(serializer.data ,  status=status.HTTP_200_OK)
+    if ContactInfo.objects.filter(id = obj_id).exists():
+        contact = ContactInfo.objects.get(id = obj_id)
+        serializer = ContactSerializer(contact , many = False)
+        res = serializer.data
+    res['msg'] = "Contact details does not exist"
+    return Response( res , status =  status.HTTP_200_OK)
+
 
 @api_view(['POST'])
 def contact_create(request):
