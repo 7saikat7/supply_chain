@@ -49,5 +49,10 @@ Proper details for any kind of delay or late shipment will be conveyed directlty
 
 Mentor for this project is Saikat Mukherjee. Github profille :- https://github.com/7saikat7
 
-![image](https://user-images.githubusercontent.com/84222590/151915606-51cc2d4f-beb6-426b-a558-9bfbbca1bb3f.png)
+<table>
+<tr>
+ <td align="center"><a href="https://github.com/7saikat7"><img src="https://avatars.githubusercontent.com/u/65228695?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">SAIKAT_CLAW</h4>
+
+</tr>
+</table>
 
