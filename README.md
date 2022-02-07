@@ -51,7 +51,7 @@ Mentor for this project is Saikat Mukherjee. Github profille :- https://github.c
 
 <table>
 <tr>
- <td align="center"><a href="https://github.com/7saikat7"><img src="https://avatars.githubusercontent.com/u/65228695?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">SAIKAT_CLAW</h4>
+ <td align="center"><a href="https://github.com/7saikat7"><img src="https://avatars.githubusercontent.com/u/65228695?v=4" width=150px height=150px /></a></br> <h4 style="color:red;">Saikat Mukherjee</h4>
 
 </tr>
 </table>
