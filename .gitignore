@@ -32,3 +32,75 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# for Django and DRF
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pycharm project files
+.idea/
+
+# PyTest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# Tox
+.tox/
+.cache/
+.python-version
+
+# example database
+drf_example
+# binaries
+bin/
+dist/
+lib/
+# for React
+
+# editors
+*.swp
+.vs/
+.vscode/
+.DS_Store
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
