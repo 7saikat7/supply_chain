@@ -60,54 +60,10 @@ Mentor for this project is Saikat Mukherjee. Github profille :- https://github.c
 
 ### Development Environment Setup: Windows
 
-
-**Step 1** : Downloading and Installing the Code Editor
-<br>
-<br/>
-You can install any one of the following code editors.
-<br>
-
-- <a href="https://code.visualstudio.com/">Visual Studio Code</a>
-- <a href="https://www.sublimetext.com/3">Sublime Text 3</a>
-- <a href="https://atom.io/">Atom</a>
-
-
 ---
 
 
-**Step 2** : Installing Python 3.9
-
-<br>
-Download <a href="https://www.python.org/downloads/">Python 3.9 </a>
-<br><br>
-<ul>
-<li>Download the Windows x86-64 executable installer for the 64-bit version of Windows</li>
-<li>Download the Windows x86 executable installer for the 32-bit version of Windows.</li>
-<li>Make sure to check '<b>Add Python 3.9 to Path</b>' in the setup window of the Installer.</li>
-</ul>
-
-Verify the installation from the command prompt (Terminal) using the following command,
-
-```bash
-python --version
-```
-
-Installed version of python will be printed.
-
-
----
-
-
-**Step 3**: Installing Git
-
-<br>
-Download <a href="https://git-scm.com/downloads">Git</a>
-
-
----
-
-
-**Step 4**: Fork the Repository
+**Step 1**: Fork the Repository
 
 <br>
 Click on <a href="#" target="_self"> <img src="https://docs.github.com/assets/cb-6294/images/help/repository/fork_button.jpg" width="15%"> </img></a> to fork <a href="https://github.com/7saikat7/supply_chain">this</a> repsository
@@ -115,7 +71,7 @@ Click on <a href="#" target="_self"> <img src="https://docs.github.com/assets/cb
 
 ---
 
-**Step 5**: Creating Project Directory
+**Step 2**: Creating Project Directory
 
 <br>
 Note: We're creating project directory on the desktop for easy and fast access.
@@ -131,7 +87,7 @@ cd myprojects
 ---
 
 
-**Step 6**: Cloning Repository using Git
+**Step 3**: Cloning Repository using Git
 
 <br>
 
@@ -143,7 +99,7 @@ git clone https://github.com/'<your-github-username>'/supply_chain.git
 ---
 
 
-**Step 7**: Change directory to supply_chain
+**Step 4**: Change directory to supply_chain
 
 <br>
 
@@ -154,7 +110,7 @@ cd supply_chain
 
 ---
 
-**Step 8**: Add a reference to the original repository
+**Step 5**: Add a reference to the original repository
 
 <br>
 
@@ -165,7 +121,7 @@ git remote add upstream https://github.com/7saikat7/supply_chain.git
 
 ---
 
-**Step 9**: Creating Virtual Environment
+**Step 6**: Creating Virtual Environment
 
 <br>
 Install virtualenv
@@ -197,7 +153,7 @@ deactivate
 ---
 
 
-**Step 10**: Installing Requirements
+**Step 7**: Installing Requirements
 
 <br>
 Note: Before installing requirements, Make sure Virtual Environment is activated.
@@ -211,7 +167,7 @@ pip install -r requirements.txt
 ---
 
 
-**Step 11**: Making database migrations
+**Step 8**: Making database migrations
 
 <br>
 
@@ -223,7 +179,7 @@ python manage.py migrate
 
 ---
 
-**Step 12**: Creating superuser to access Admin Panel
+**Step 9**: Creating superuser to access Admin Panel
 
 <br>
 
@@ -234,7 +190,7 @@ python manage.py createsuperuser
 
 ---
 
-**Step 13**: Running the Project in local server
+**Step 10**: Running the Project in local server
 
 <br>
 <b>Note:</b> Before running the project in local server, Make sure you activate the Virtual Environment.
