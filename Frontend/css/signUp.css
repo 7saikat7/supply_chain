@@ -12,12 +12,14 @@ body {
   overflow: hidden;
   background: #e0eaf6bf;
   position: relative;
+  z-index: -1;
 }
 
 .back-img1,
 .back-img2 {
   position: absolute;
   height: 40rem;
+  z-index: -1;
 }
 .back-img1 {
   top: 5rem;
@@ -59,6 +61,7 @@ main {
 .sign-img {
   display: block;
   position: inherit;
+  z-index: -1;
 }
 
 .sign-input {
@@ -107,6 +110,9 @@ section {
 .left span a {
   text-decoration: none;
   font-weight: 700;
+}
+.left span a:hover {
+  color: #fe7f2e;
 }
 
 .create {
