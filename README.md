@@ -31,19 +31,12 @@ Proper details for any kind of delay or late shipment will be conveyed directlty
 * PostgreSQL
 
 
-# Contributors
-
-• Saikat Mukherjee
-• Soumalya Bhattacharya
-• Shreshtha Sadhu
-
-
 # Maintainers
 
 • Saikat Mukherjee
 
 
-# Participating under JWoC 2K22
+# Participated under [JWoC 2K22]
 
 # Mentor
 
@@ -280,10 +273,6 @@ git push -u origin <your_branch_name>
 <br>
 
 --- 
-
-# ShippIt UI 
-
-###  Take A Look Of Our Projects UI   **[Shipp It UI ](https://www.figma.com/file/1JMyodDjCK4SkiqXzHzkDK/Ship-It?node-id=0%3A1)** 
 
 
 
