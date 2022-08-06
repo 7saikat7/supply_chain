@@ -1,4 +1,5 @@
-# from django.shortcuts import render
+from .forms import Form
+from django.shortcuts import render, redirect
 
 # from rest_framework.decorators import api_view
 # from rest_framework.response import Response
@@ -47,3 +48,22 @@
 #     res['msg'] = "Contact info updated successfully"
 #     res['data'] = serializer.data
 #     return Response(res, status=status.HTTP_200_OK)
+
+
+#
+#@todo : add frontend for contact_info,
+#        basic html present at templates/dashboard/ContactUs.html
+
+def contact_info(request):
+    form = Form()
+
+    if request.method == "POST":
+        form = Form(request.POST)
+        if form.is_valid():
+            contact = form.save(commit=False)
+            contact.save()
+            return redirect('home')
+
+    context = {'form': form}
+    return render(request, "dashboard/ContactUs.html", context)
+
