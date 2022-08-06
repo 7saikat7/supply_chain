@@ -1,53 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- importing stylesheet  -->
+    <!-- custom stylesheet  -->
+    <link href="../style/landing_style.css" rel="stylesheet" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- importing fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Michroma"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing page</title>
-	<link rel="stylesheet" href="/style/landing_page.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-</head>
+    <title>Shipp It</title>
+  </head>
+  <body>
+    <!-- background blurred ellipses css -->
+    <div class="ellipse1"></div>
+    <div class="ellipse2"></div>
+    <div class="main_landing_page">
+      <!-- header can be reused for other pages -->
+      <header>
+        <!-- modified from bootstrap navbar snipper -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid" style="padding: 0">
+            <img src="../images/shipp_logo.png" class="shipp_logo" />
 
-<body>
-	<div class="main">
-		<div class="navbar">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse nav_list"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Partners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/about_us.html">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/login.html">Pricing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-			<img src="/img/logo.png" class="logo" />
+      <content>
+        <!-- search bar -->
+        <form id="f1" name="f1" class="search">
+          <input
+            type="text"
+            name="t1"
+            placeholder=" Track Your Order"
+            required=""
+          />
+          <input type="submit" name="b1" value="Search" form="f1" />
+        </form>
 
-			<ul>
-				<li><a href="#" class="active">HOME</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="pages/about_us.html">ABOUT US </a></li>
-				<li><a href="#">CONTACT US </a></li>
-				<li><a href="pages/login.html" class="lgn">LOGIN</a></li>
+        <div class="page_container">
+          <div class="text_col">
+            <div class="heading">Shipp it</div>
+            <span> Shipp It is a delivery service company based in India.</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+              massa, integer proin cras auctor enim pharetra. Parturient massa
+              pulvinar pellentesque id tristique. Arcu cras et posuere
+              condimentum mattis donec leo blandit. Justo, tortor mattis nunc,
+              suspendisse mi habitasse.
+            </p>
 
-			</ul>
-		</div>
-
-		<div class="container">
-			<div class="content">
-				<h1>Shipp It</h1>
-				<h2>Shipp It is a delivery service company based in India.</h2>
-				<p class="para">
-
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum massa, integer proin <br>cras
-					auctor
-					enim pharetra. Parturient massa pulvinar pellentesque id tristique. Arcu cras<br> et posuere
-					condimentum
-					mattis donec leo blandit. Justo, tortor mattis nunc, suspendisse mi habitasse.</p>
-				<div class="btn">
-
-					<a href=""> <button class="btn1 button">Get Started</button></a>
-					<a href=""> <button class="btn2 button">Download App</button></a>
-				</div>
-			</div>
-			<div class="shipp">
-				<img src="/img/logo1.svg">
-			</div>
-		</div>
-		<div>
-</body>
-
+            <div class="btn_row">
+              <button>Get Started</button>
+              <button>Download App</button>
+            </div>
+          </div>
+          <img src="../images/delivary_logo.png" class="delivary_logo" />
+        </div>
+      </content>
+    </div>
+  </body>
 </html>
