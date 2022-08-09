@@ -98,9 +98,4 @@ body {
   margin-bottom: 160px;
 }
 
-@media (max-width: 767px){
-  .my-div2 {
-    display: none;
-  }
-}
 
