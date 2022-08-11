@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@500&display=swap');
+@import url('static/static/Montserrat-Bold.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    margin : 0;
+    background-color:#E0EAF6BF;
+}
+main {
+    background-color: transparent;
+    margin-top: 6%;
+    margin-left : 10.7vw;
+    margin-right : 10.7vw;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0px;
+}
+header > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.1vh;
+}
+header li {
+    font-family:  'Michroma', sans-serif;
+    color: #FE7F2E;
+    font-size: 2.2vh;
+    list-style: none;
+    display: inline-block;
+    padding: 0 0 0 6.7vw ;
+}
+
+.box {
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.7vh;
+}
+
+.personal > .join-text {
+    background-color: white;
+}
+.partner {
+
+}
+
+.personal button {
+    border: none;
+    background-color: #FE7F2E   ;
+    padding : 1.8vh 1.6vw;
+    color : white;
+    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1vw;
+    margin-top: 1.5vh;
+    position: relative;
+    left:24%;
+}
+
+.partner button {
+    position: relative;
+    border: none;
+    background-color: #233D4C   ;
+    padding : 1.8vh 1.6vw;
+    color : white;
+    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 1vw;
+    margin-top: 1.5vh;
+    left:32%;
+}
+.personal {
+    border-radius: 0.7vw;
+}
+.join-text {
+    background-color: white;
+    border-radius: 0.7vw;
+    height: 54.33vh;
+    width : 36vw;
+    font-size: 1.5vh;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3.3vh;
+    padding-left: 2.8vw;
+}
+
+.join-text > p {
+    padding-right: 1.6vw;
+    font-size: 1.1vw;
+}
+
+.join-text > ul > li {
+    font-size: 1.1vw;
+    padding-right: 1.6vw;
+}
+
+.elipse4{
+    position: absolute;
+    z-index: -1;
+    left: -4vw;
+    top: 58vh;
+    width: 29vh;
+    height: 29vh;
+    background: rgba(254, 127, 46, 0.3);
+    filter: blur(140px);
+}
+
+.elipse2 {
+    position: absolute;
+    z-index : -1;
+width: 51.6vh;
+height: 51.6vh;
+left: 64vw;
+top: 11.38vh    ;
+
+background: rgba(254, 127, 46, 0.3);
+filter: blur(490px);
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+
+    body {
+        margin : 0;
+        background-color: rgba(240, 245, 248, 0.98);;
+        padding-bottom: 10vh;
+    }
+    main {
+        background-color: transparent;
+        margin-top: 6%;
+        margin-left : 10.7vw;
+        margin-right : 10.7vw;
+    } 
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 0px;
+    }
+    header > h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4.1vh;
+    }
+    header li {
+        font-family:  'Michroma', sans-serif;
+        color: #FE7F2E;
+        font-size: 2.2vh;
+        list-style: none;
+        display: none;
+        padding: 0 0 0 6.7vw ;
+    }
+    
+    .box {
+    }
+    
+    .content {
+        display: block;
+    }
+    
+    .personal > .join-text {
+        background-color: white;
+    }
+    .partner {
+        
+    }
+    
+    .personal button {
+        width: 100%;
+        border: none;
+        background-color: #FE7F2E   ;
+        padding : 1.8vh 1.6vw;
+        color : white;
+        font-size: 2.5vh;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 1vw;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        position: relative;
+        left:1vw;
+        border-radius: 1.1vh;
+    }
+    
+    .partner button {
+        width: 100%;
+        position: relative;
+        border: none;
+        background-color: #233D4C   ;
+        padding : 1.8vh 1.6vw;
+        color : white;
+        font-size: 2.5vh;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 1vw;
+        margin-bottom: 1.5vh;
+        margin-top: 1.5vh;
+        left:1vw;
+        border-radius: 1.1vh;
+    }
+    .personal {
+        border-radius: 0.7vw;
+    }
+    .join-text {
+        background-color: white;
+        border-radius: 1.1vh;
+        height: 70vh;
+        width : 78vw;
+        font-size: 1.5vh;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 3.3vh;
+        padding-left: 2.8vw;
+    }.elipse4{
+        display: none;
+    }
+    
+    .elipse2 {
+        display: none;
+    }
+    .join-text > p {
+        padding-right: 1.6vw;
+        font-size: 4vw;
+    }
+    
+    .join-text > ul > li {
+        font-size: 4vw;
+        padding-right: 1.6vw;
+    }
+}
