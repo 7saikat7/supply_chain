@@ -132,10 +132,14 @@ virtualenv myvenv -p python3.9
 
 To Activate `myvenv`
 
+For Windows:
 ```bash
 myvenv\Scripts\activate
 ```
-
+For Linux/macOS:
+```bash
+source myvenv/bin/activate
+```
 To deactivate `myvenv`
 
 ```bash
