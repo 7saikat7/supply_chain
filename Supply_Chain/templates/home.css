@@ -1,7 +1,4 @@
-html,
-body {
-  height: 100%;
-}
+
 
 body {
   display: -ms-flexbox;
@@ -51,7 +48,7 @@ body {
 
 /* footer button */
 .footer-btn{
-  margin-left: 700px; 
+  margin-left: 350px; 
   font-family: 'Courier New', monospace;
 }
 
@@ -77,25 +74,25 @@ body {
 /* Final login button */
 .final-login-btn{
   display: inline; 
-  margin-left: 650px;
+  margin-left: 390px;
 }
 
 /* Login form block */
 .my-div1{ 
-  margin-top: 80px;
+  /* margin-top: 10px; */
   display: inline-block;
   background-color: #f5f5f5;
 } 
 
 /* Contain the image */
 .my-div2{ 
-  margin-left: 200px;
+  /* margin-left: 120px; */
   display: inline-block;
 }   
 
 /* Combined block of the form and the image */
 .block{
-  margin-bottom: 160px;
+  margin-bottom: 20px;
 }
 
 
