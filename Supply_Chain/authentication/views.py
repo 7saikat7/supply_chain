@@ -1,8 +1,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
-from django.contrib.auth import login, get_user_model
-from django.contrib.auth.forms import AuthenticationForm
+from django.contrib import messages
+from django.contrib.auth import login, get_user_model, authenticate
 from authentication.forms import CustomRegisterForm
+from home import views
 
 UserModel = get_user_model()
 
@@ -21,16 +22,18 @@ def RegisterForm(request):
     context = {'form':form}
     return render(request, 'authentication/Register.html', context)
 
+
 def LoginForm(request):
     if request.method == "POST":
-        form = AuthenticationForm(request, data=request.POST)
-        if form.is_valid():
-            user = form.get_user()
-            login(request, user)
-            return HttpResponse("Success")
-            # return redirect()
-    else:
-        form = AuthenticationForm(request)
+        email = request.POST.get('email')
+        password = request.POST.get('password')
 
-    context = {'form':form}
-    return render(request, 'authentication/Login.html', context)
+        user = authenticate(username=email, password=password)
+
+        if user is not None:
+            login(request, user)
+            return redirect(views.home)
+        else:
+            messages.error(request, 'Login Failed')
+    
+    return render(request, "authentication/Login.html")
