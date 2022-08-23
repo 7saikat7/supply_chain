@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-	<form method="POST" action="">
+	<form action='' method='POST'>
 		{% csrf_token %}
-		{{  form.as_p }}
-		<input type='submit' value='Submit'>
+		{{form.as_p}}
+		<input type='submit' value='Submit'/>
 	</form>
 </html>
