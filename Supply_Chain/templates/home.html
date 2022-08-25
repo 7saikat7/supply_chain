@@ -1,1 +1,81 @@
-<h1>Hi !</h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Login</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link href="home.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- This is the final div which contain the whole body-->
+  <div>
+    <!-- This div contain the navbar and login , photo-->
+    <div>
+      <!-- This div contain the login and photo-->
+      <div class="block">
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div style="margin-left: 20px;">
+              <p class="navbar-brand footer-txt">Login</p>
+            </div>
+            <div class="footer-btn collapse navbar-collapse"">
+              <button type="button" class="btn btn-light"><a class="navbar-brand" href="#">Services</a></button>
+              <button type="button" class="btn btn-light"><a class="navbar-brand" href="#">Partners</a></button>
+              <button type="button" class="btn btn-light"><a class="navbar-brand" href="#">Contact us</a></button>
+              <button type="button" class="btn btn-light"><a class="navbar-brand" href="#">About us</a></button>
+            </div>
+          </nav>
+        </div>
+        <div class="my-div1">
+          <form class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal my-h1">Enter your login details</h1>
+            <input type="email" id="inputEmail" class="form-control my-email-input" placeholder="Username/Email"
+              " required autofocus>
+              <!-- style="margin-bottom: 42px -->
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" style="margin-top: 30px;" required>
+            <div class="checkbox mb-3 my-checkbox">
+              <label style="padding-right: 150px">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+              <button type="button" class="btn forget-pw-btn">Forget Password?</button>
+            </div>
+          </form>
+        </div>
+        <div class="my-div2">
+          <img src="img.png" alt="image" width="250" height="330">
+        </div>
+      </div>
+    </div>
+
+    <!-- Contain the login and create account button -->
+    <div style="margin-left: 100px;">
+
+      <div style="display: inline;">
+        <p style="display: inline;">Do you have an account?</p>
+        <button type="button" class="btn" style="display: inline;">Create account</button>
+      </div>
+
+      <div class="final-login-btn">
+        <button type="button" class="btn btn-success">Login</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
