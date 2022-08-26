@@ -1,0 +1,236 @@
+body{
+    background: linear-gradient(0deg, rgba(224, 234, 246, 0.75), rgba(224, 234, 246, 0.75)), #FFFFFF;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navigationbar{
+    display: flex;
+    position: relative;
+    background: linear-gradient(0deg, rgba(224, 234, 246, 0.75), rgba(224, 234, 246, 0.75)), #FFFFFF;
+}
+
+.Createaccount{
+    display: flex;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 42px;
+    margin-left: 100px;
+    padding: 15px;
+    color: #233D4C; 
+}
+
+.Items{
+    display: flex;
+    position: fixed;
+    margin-top: 62px;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    margin-left: 540px;
+}
+
+.Items a{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #FE7F2E;
+    display: inline;
+    text-decoration: none;
+    padding: 15px 40px;
+
+}
+
+.Container{
+    position: fixed;
+    width: 600px;
+    height: 405px;
+    margin-left: 120px;
+    margin-top: 130px;
+    background-color: rgba(250, 250, 250, 0.938);
+    border-radius: 10px;
+}
+
+.Container p{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.name{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 300px;
+    height: 40px;
+    background: rgba(224, 234, 247, 0.4);
+    border-radius: 9px;
+    border-color: rgba(250, 250, 250, 0.938);
+    margin-top: 80px;
+    margin-left: 30px;
+    border: 1px solid rgba(224, 234, 247, 0.4);
+    padding-left: 15px;
+    
+}
+
+.contact{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 80px;
+    margin-left: 360px;
+    width: 200px;
+    height: 40px;
+    background: rgba(224, 234, 247, 0.4);
+    border-radius: 9px;
+    border-color: rgba(250, 250, 250, 0.938);
+    border: 1px solid rgba(224, 234, 247, 0.4);
+    padding-left: 15px;
+}
+
+.email{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 320px;
+    height: 40px;
+    background: rgba(224, 234, 247, 0.4);
+    border-radius: 9px;
+    border-color: rgba(250, 250, 250, 0.938);
+    margin-top: 140px;
+    margin-left: 30px;
+    border: 1px solid rgba(224, 234, 247, 0.4);
+    padding-left: 15px;
+}
+
+.psw{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 530px;
+    height: 40px;
+    background: rgba(224, 234, 247, 0.4);
+    border-radius: 9px;
+    border-color: rgba(250, 250, 250, 0.938);
+    margin-top: 200px;
+    margin-left: 30px;
+    border: 1px solid rgba(224, 234, 247, 0.4);
+    padding-left: 15px;
+}
+
+.psw-repeat{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 530px;
+    height: 40px;
+    background: rgba(224, 234, 247, 0.4);
+    border-radius: 9px;
+    border-color: rgba(250, 250, 250, 0.938);
+    margin-top: 260px;
+    margin-left: 30px;
+    border: 1px solid rgba(224, 234, 247, 0.4);
+    padding-left: 15px;
+}
+
+.age{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 140px;
+    margin-left: 380px;
+    width: 180px;
+    height: 40px;
+    background: rgba(224, 234, 247, 0.4);
+    border-radius: 9px;
+    border-color: rgba(250, 250, 250, 0.938);
+    border: 1px solid rgba(224, 234, 247, 0.4);
+    padding-left: 15px;
+}
+
+.checkbox{
+    margin-top: 350px;
+    margin-left: 150px;
+    width: 17px;
+    height: 18px;
+}
+
+.Checkbox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 18px;
+    
+}
+
+.imgcontainer{
+    position: fixed;
+    mix-blend-mode: darken;
+    width: 439px;
+    height: 446px;
+    margin-left: 730px;
+    margin-top: 90px;
+}
+
+.alternate{
+    display: flex;
+    position: absolute;
+    left: 290px;
+    top: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.Login{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 215px;
+}
+
+.login{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Button{
+    background: #00AB44;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.17);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    left: 935px;
+    bottom: 70px
+}
