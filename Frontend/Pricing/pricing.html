@@ -1,115 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap CDNs -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+        <!--Font Links-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Michroma" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing page</title>
-	<link rel="stylesheet" href="pricing.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-</head>
-
+        <!-- linking the style sheet here -->
+        <link rel="stylesheet" href="pricing.css">
+        <title>Pricing</title>
+    </head>
 <body>
-	<div class="main">
-		<div class="navbar">
+    <!--this div is added here for design purposes as per figma layout-->
+    <div id="trial2"></div>
+    <!--start of navbar-->
+    <nav class="navbar navbar-light">
+        <!-- Ship It Logo -->
+        <a href="#" class="navbar-brand"><img src="img/Logo.png" alt=""></a>
+        
+        <!--navbar for mobile view or small screens-->
+        <p class="mobile-view">
+            <button id="mobile-navbar-btn" class="btn btn-primary navbar-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <div></div>
+              <div></div>
+              <div></div>
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="mobile-view-navbar">
+                <ul class="mobile-view-navbar-nav">
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Partners</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">Contact Us</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of mobile view navbar -->
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Partners</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Contact Us</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">About Us</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- end of navbar -->
+    
+    <!-- pricing cards -->
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">$XYZ</h5>
+              <p>5 units</p>
+              <table style="width:100%" class="table">
+                <tr>
+                    <th>Weight:</th>
+                    <td>3KG</td>
+                </tr>
+                <tr>
+                    <th>Country:</th>
+                    <td>ALL</td>
+                </tr>
+                <tr>
+                    <th>Duration:</th>
+                    <td>5-10 days</td>
+                </tr>
+                <tr>
+                    <th>Support:</th>
+                    <td>Yes</td>
+                  </tr>
+              </table>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 ">
+          <div class="card ">
+            <div class="card-body text-center">
+              <h5 class="card-title">$XYZ</h5>
+              <p>1 unit item</p>
+              <table style="width:100%" class="table">
+                <tr>
+                    <th>Weight:</th>
+                    <td>3KG</td>
+                </tr>
+                <tr>
+                    <th>Country:</th>
+                    <td>ALL</td>
+                </tr>
+                <tr>
+                    <th>Duration:</th>
+                    <td>5-10 days</td>
+                </tr>
+                <tr>
+                    <th>Support:</th>
+                    <td>Yes</td>
+                  </tr>
+              </table>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center">
+                <h5 class="card-title">$XYZ</h5>
+                <p>5 units</p>
+                <table style="width:100%" class="table">
+                    <tr>
+                        <th>Weight:</th>
+                        <td>3KG</td>
+                    </tr>
+                    <tr>
+                        <th>Country:</th>
+                        <td>ALL</td>
+                    </tr>
+                    <tr>
+                        <th>Duration:</th>
+                        <td>5-10 days</td>
+                    </tr>
+                    <tr>
+                        <th>Support:</th>
+                        <td>Yes</td>
+                      </tr>
+                  </table>
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of pricing cards -->
 
-			<img src="img/logo.png" class="logo" />
-
-			<ul>
-				<li><a href="#" class="active">Services</a></li>
-				<li><a href="#">Partners</a></li>
-				<li><a href="#">Contact us</a></li>
-				<li><a href="#">About us</a></li>
-				<!-- <li><a href="pages/login.html" class="lgn">LOGIN</a></li> -->
-
-			</ul>
-		</div>
-
-		<!-- ------------------[card-1]--------------------- -->
-
-		<div class="cover">
-			<div class="container-1">
-				<div class="head">
-					<h1>$XYZ</h1>
-					<h4>3 items</h4>
-				</div>
-				<div class="values">
-					<div class="value-name value1">
-						<p class="p">Weight</p>
-						<p class="p">Country</p>
-						<p class="p">Duration</p>
-						<p class="p">Support</p>
-					</div>
-					<div class="num-value value2">
-						<p class="v">5 KG</p>
-						<p class="v">ALL</p>
-						<p class="v">5-10 days</p>
-						<p class="v">Yes</p>
-					</div>
-				</div>
-				<input type="button" value="Order Now" class="btn1">
-
-
-			</div>
-			<!-- -----------------[card-2]------------------ -->
-
-			<div class="container-1 container-2">
-				<div class="head">
-					<h1>$XYZ</h1>
-					<h4>3 items</h4>
-				</div>
-				<div class="values">
-					<div class="value-name value1">
-						<p class="p">Weight</p>
-						<p class="p">Country</p>
-						<p class="p">Duration</p>
-						<p class="p">Support</p>
-					</div>
-					<div class="num-value value2">
-						<p class="v">5 KG</p>
-						<p class="v">ALL</p>
-						<p class="v">5-10 days</p>
-						<p class="v">Yes</p>
-					</div>
-				</div>
-				<input type="button" value="Order Now" class="btn1">
-
-
-			</div>
-			<!-- ---------------[card-3]------------------ -->
-
-
-			<div class=" container-1 container-3">
-				<div class="head">
-					<h1>$XYZ</h1>
-					<h4>3 items</h4>
-				</div>
-				<div class="values">
-					<div class="value-name value1">
-						<p class="p">Weight</p>
-						<p class="p">Country</p>
-						<p class="p">Duration</p>
-						<p class="p">Support</p>
-					</div>
-					<div class="num-value value2">
-						<p class="v">5 KG</p>
-						<p class="v">ALL</p>
-						<p class="v">5-10 days</p>
-						<p class="v">Yes</p>
-					</div>
-				</div>
-				<input type="button" value="Order Now" class="btn1">
-
-
-			</div>
-		
-		</div>
-	</div>
-
-
-
-
+    <!-- this div is added here for design purposes as per figma layout -->
+    <div id="trial"></div>
 </body>
-
 </html>
