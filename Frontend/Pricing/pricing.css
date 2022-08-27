@@ -1,197 +1,291 @@
-* {
-	margin: 0;
-	padding: 0;
+body{
+    background: linear-gradient(0deg, rgba(224, 234, 246, 0.75), rgba(224, 234, 246, 0.75)), #FFFFFF;
 }
 
-body {
-	font-family: "Trirong", serif;
-	background: black;
+/* styling for the navbar */
+.navbar-nav{
+    display: flex;
+    flex-flow: wrap;
 }
-
-.main {
-	position: relative;
-	height: 100vh;
-	width: 100%;
-	background: linear-gradient(rgba(102, 145, 148, 0.712), #da7a3fc4);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.8;
-
+.navbar-item{
+    padding: 5rem;
 }
-
-.main .navbar {
-	position: absolute;
-	top: 35px;
-	height: 16%;
-	width: 99%;
-	/* background-color: rgba(143, 135, 132, 0.274); */
+.navbar-link{
+    text-decoration: none;
+    color: #FE7F2E;
 }
-
-.main .navbar .logo {
-	position: relative;
-	width: 150px;
-	height: 150px;
-	top: -25px;
-	left: 15%;
-	font-family: 'Lato', sans-serif;
-	font-size: 35px;
-	font-weight: 600;
-	color: #fff;
-	cursor: pointer;
-	float: left;
-	text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+.navbar-brand{
+    padding: 5rem;
 }
-
-.main .navbar ul {
-	position: relative;
-	height: 100%;
-	width: 50%;
-	color: black;
-	float: right;
+.navbar{
+    font-family: 'Michroma';
 }
-
-.main .navbar ul li {
-	list-style-type: none;
-	display: inline-block;
+.navbar li{
+    transition: all 0.5s ease-in-out;
 }
-
-.main .navbar ul .lgn {
-	border: 2px solid #FE7F2E;
-	padding: 6px 10px;
-	background-color: #FE7F2E;
-	color: #fff;
+.navbar li:hover{
+    transform: scale(1.1);
 }
-
-.main .navbar ul li a {
-	position: relative;
-	text-decoration: none;
-	display: block;
-	box-sizing: border-box;
-	text-shadow: 0px 5px 5px rgba(0, 0, 0, 35%);
-	color: #fd711b;
-	font-family: 'cinzel', sans-serif;
-	font-size: 15px;
-	font-weight: 600;
-	padding: 10px;
-	height: auto;
-	margin: 0px 15px;
+.navbar a:hover{
+    color: #FE7F2E;
 }
+/* end of styling for navbar */
 
-.main .navbar ul li a:before {
-	position: absolute;
-	content: '';
-	height: 2px;
-	width: 0;
-	background: #FE7F2E;
-	left: 0;
-	bottom: 0;
-	transition: 0.5s ease-in-out width;
+/* styling for the div blocks for design purposes */
+#trial{
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: -52px;
+    top: 417px;
+    background: rgba(254, 127, 46, 0.2);
+    filter: blur(212px);
 }
-
-.main .navbar ul li a:hover:before,
-.main .navbar ul li a.active:before {
-	width: 100%;
+#trial2{
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: 822px;
+    top: 82px;
+    background: rgba(254, 127, 46, 0.2);
+    filter: blur(290px);
 }
+/* end of design-divs styling */
 
-.main .navbar ul li span {
-	padding: 2px;
-	font-size: 24px;
-	color: #fff;
-	font-weight: 200;
+/* start of styling for pricing cards */
+.row{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Montserrat';
+}
+.card{
+    background: none;
+    border: none;
+    width: 378px;
+    height: 500px;
+    padding: 38px 0px 43px 0px;
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+    z-index: 1;
+    margin-left: 4rem;
+}
+.card-title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+.card p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FE7F2E;
 }
 
 
+/* styling for pricing cards upon hover */
+.card:hover{
+    background: orange !important;
+    transform: scale(1.05);
+    border: none;
+    color: white;
+}
+.card:hover .btn{
+    background-color: white;
+    border: none;
+    color: #233D4C;
+}
+.card:hover p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.card:hover table{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.card:hover td{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+/* end of styling for pricing cards upon hover */
 
-/* ____________________________________________________________________________________________________________ */
+/* styling for contents of the cards */
+table{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    border-bottom-width: none !important;
+    width: 100%;
+    color: #233D4C;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+td{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #233D4C;
+    border-top: none;
+    border-bottom: none;
+    border-collapse: collapse;
+}
+th{
+    border:none;
+    border-collapse: collapse;
+}
+/*styling for Order Now button in the pricing cards */
+.btn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    width: 145px;
+    height: 46px;
+    background: #233D4C;
+    border-radius: 10px;
+    border: none;
+    padding-top: 11px;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+/* end of styling for pricing cards */
 
-.cover {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	/* border: 2px solid green; */
-	position: relative;
-	top: 32vh;
+
+
+/* hiding the mobile view navbar for larger screens */
+@media only screen and (min-width: 1025px){
+    .mobile-view{
+        display: none;
+    }
 }
 
-.container-1 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	/* border: 2px solid red; */
-	margin: 0px 170px;
-	/* width: 25%; */
+
+/* styling for smaller laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .card{
+        width: 296px !important;
+    }
+    .navbar-item{
+        padding: 3rem;
+    }
+    /* hiding the mobile view of the navbar */
+    .mobile-view{
+        display: none;
+    }
+}        
+
+/* styling for tablets */
+@media only screen and (min-width: 426px) and (max-width: 769px){
+    .navbar img{
+        width: 3rem;
+    }
+    .navbar-item{
+        padding: 1rem;
+        font-size: small;
+    }
+    .row{
+        display: flex;
+        flex-flow: column;
+        padding-left: 8rem;
+        padding-right: 0rem;
+    }
+    #trial2{
+        width: 372px;
+        height: 258px;
+        left: 383px;
+        top: 134px;
+    }
+    .card{
+        width: 509px;
+        margin-bottom: 2rem;
+		margin-left: 1rem;
+    }
+    /* hiding the mobile view of the navbar */
+    .mobile-view{
+        display: none;
+    }
 }
 
-.container-1 .head h4 {
-	color: #FE7F2E;
-	font-size: 13px;
-	align-items: center;
-	display: flex;
-	/* border: 2px solid red; */
-	justify-content: center;
+/* styling for small screens or phones (mobile view) */
+@media only screen and (max-width: 425px){
+    
+    /* hiding the original navbar (the one for the bigger screens) for mobile screens */
+    .navbar-nav {
+        display: none;
+    }
+    .navbar img{
+        width: 3rem;
+    }
+    .navbar-brand{
+        padding: 2rem;
+    }
+    .navbar-item{
+        padding: 1rem;
+        text-align: right;
+    }
+    .navbar{
+        background: rgba(254, 127, 46, 0.2);
+        margin-bottom: 2rem;
+    }
+    .navbar li:hover{
+        transform: scale(1.04);
+    }
+    
+    /* 1. styling the toggle icon with three horizontal lines 
+       2. the id(#) selector is used instead of class(.) for the button of the mobile view navbar so as to override some styling done for .btn class previously
+    */
+    #mobile-navbar-btn div{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+    /* styling the toggle button */
+    #mobile-navbar-btn{
+        width: 61px;
+        height: 56px;
+        background: none;
+    }
+    /* styling the mobile view navbar button to remove the outline/border of the button */
+    #mobile-navbar-btn:focus , #mobile-navbar-btn:active{
+        outline: none !important;
+        box-shadow: none;
+    }
+    
 
-
+    /* styling the mobile view ul */
+    .mobile-view-navbar-nav{
+        list-style-type: none;
+    }
+    .mobile-view-navbar{
+        width: 375px;
+    }
+    .mobile-view{
+        margin-right: 18px;
+        margin-bottom: 1px;
+    }
+    
+    .card{
+        width: 309px;
+        height: 459px;
+        margin-bottom: 2rem;
+		margin-left: 1rem;
+    }
+    
 }
-
-
-
-.value {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	/* margin-right: 50px; */
-
-}
-.p{
-	margin-right: 30px;
-}
-.v{
-	margin-left: 30px;
-}
-
-.values {
-	display: flex;
-	justify-content: space-around;
-	line-height: 30px;
-	padding-bottom: 10px;
-	/* margin: 10px 20px; */
-}
-.container-1 .btn1{
-	border: none;
-	padding: 10px 15px;
-	background-color: #181412;
-	font-weight: 400;
-	color: white;
-	border-radius: 5px;
-}
-
-
-
-/* card-2 design.................... */
-
-.container-2{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #fd711b;
-	/* border: 2px solid red; */
-	margin: 0px 20px;
-	padding: 15px;
-	border-radius: 10px;
-	color: white;
-}
-.container-2 .head h4{
-	color: white;
-}
-
-.container-2 .btn1{
-	background-color: white;
-	color: black;
-	font-weight:bold;
-}
-
-
-
-/* ____________________________________________________________________________________________________________ */
