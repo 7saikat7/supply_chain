@@ -8,4 +8,5 @@ urlpatterns = [
     path('',include('inventory.urls')),
     path('dashboard/', include('dashboard.urls') ),
     path('authentication/', include('authentication.urls') ),
+    path('payment/', include('payment.urls') ),
 ]
