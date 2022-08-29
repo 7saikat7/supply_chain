@@ -1,5 +1,8 @@
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
+from geopy.geocoders import Nominatim
+from .forms import SellerForm, ReceiverForm
+from geopy.distance import geodesic
 
 # Create your views here.
 
@@ -10,13 +13,31 @@ def add_delivery_details(request):
 		pincode = request.POST.get('pincode','')
 		contact = request.POST.get('contact_number','')
 		alternate_contact = request.POST.get('alternate_contact','')
+		
+		selleraddress = request.POST.get('selleraddress','')
+		seller_pincode = request.POST.get('seller_pincode','')
+		seller_contact_number = request.POST.get('seller_contact_number','')
+		productweight = request.POST.get('productweight','')
+		product_type = request.POST.get('product_type','')
 		product_category = request.POST.get('product_category','')
-		print(product_category)
+		
+		seller_obj = Seller()
+		receiever_obj = Receiver()
+		receiever_obj.address = address
+		receiever_obj.pincode = pincode
+		receiever_obj.contact_number = contact
+		receiever_obj.alternate_contact_number = alternate_contact
+		receiver_obj.email = email_id
+		receiever_obj.save()
+		
+		seller_obj.address = selleraddress
+		seller_obj.pincode = seller_pincode
+		seller_obj.contact_number = seller_contact_number
+		seller_obj.save()
+		
 	return render(request,"inventory/delivery_details_page.html")
 
-from geopy.geocoders import Nominatim
-from .forms import SellerForm, ReceiverForm
-from geopy.distance import geodesic
+
 
 geocoder = Nominatim(user_agent = 'Supply chain')
 

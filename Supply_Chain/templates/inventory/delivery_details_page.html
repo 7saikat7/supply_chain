@@ -3,8 +3,10 @@
 <body>
 
 <h2>Add Delivery</h2>
-<h3>Receiver</h3>
+ <h3>Receiver</h3>
 <form action="." name = "receiverdetails" method="POST">
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email_id"><br><br>
   <label for="address">Address:</label><br>
   <input type="text" id="address" name="address"><br><br>
   <label for="pincode">Pincode:</label><br>
@@ -13,11 +15,8 @@
   <input type="text" id="contact" name="contact_number"><br><br>
   <label for="Alternate_Contact">Alternate Contact:</label><br>
   <input type="text" id="alternatecontact" name="alternate_contact"><br><br>
-  <button type="submit">Submit</button>
-</form> 
 
-<h3>Sender</h3>
-<form action="." name = "sellerdetails" method="POST">
+  <h3>Sender</h3>
   <label for="address">Address:</label><br>
   <input type="text" id="selleraddress" name="selleraddress"><br><br>
   <label for="pincode">Pincode:</label><br>

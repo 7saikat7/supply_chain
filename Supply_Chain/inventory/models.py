@@ -20,6 +20,7 @@ class Seller(models.Model):
     address = models.CharField(max_length= 200 , default="NULL")
     city = models.CharField(max_length= 200 , default="NULL")
     state = models.CharField(max_length= 200 , default="NULL")
+    contact_number = models.CharField(max_length=200, blank=True)
     pincode = models.CharField(max_length= 20 , default="NULL")
     email = models.EmailField(max_length=200 , unique=True)
     file = models.FileField(upload_to='', max_length=200, blank=True)
