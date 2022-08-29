@@ -1,0 +1,101 @@
+body{
+	margin:0;
+	padding:0;
+	/* background:black; */
+}
+.main{
+	position: relative;
+	height:100vh;
+	width:100%;
+	background:linear-gradient(rgba(117, 107, 103, 0.6),#fe7e2e7c);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+    
+	
+}
+.head{
+    margin: auto;
+    background: #EDEDE9;
+    width: 25%;
+    top: 20%;
+    height: 70%;
+    position: relative;
+}
+
+.lg_section{
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo_name{
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 72px;
+    color: #233D4D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.lg{
+    font-weight:600;
+    color: #FE7F2E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+.form-control{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:sans-serif;
+    width: 70%;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgba(190, 188, 188,0.7);
+}
+.form-check{
+    display: flex;
+    justify-content: left; 
+    position: relative;
+    margin-top: 20px;
+}
+.fp{
+    position: relative;
+    left: 13%;
+    font-size: 15px;
+}
+
+.btn{ 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border:2px solid #FE7F2E;
+	padding: 8px 20px;
+	background-color: #FE7F2E;
+	color: white;
+    font-weight:bold;
+    font-size: 18px;
+    border-radius: 10px;
+    /* text-shadow:5px 4px 5px rgba(0, 0, 0, 0.5); */
+    cursor: pointer;
+}
+hr{
+    width: 80%;
+    margin-top: 15px;
+}
+
+.sign_up{
+    font-size: 20px;
+}

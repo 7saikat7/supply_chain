@@ -1,0 +1,175 @@
+/* ===================================BACKGROUNDS============================
+========================================================================== */
+body {
+  margin: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(224, 234, 246, 0.75),
+      rgba(224, 234, 246, 0.75)
+    ),
+    #ffffff;
+}
+
+/* ellipses for background blur effect */
+.ellipse1 {
+  position: fixed;
+  width: 372px;
+  height: 372px;
+  left: 822px;
+  top: 82px;
+  border-radius: 186px;
+  background: rgba(254, 127, 46, 0.2);
+  filter: blur(160px);
+}
+
+.ellipse2 {
+  position: fixed;
+  width: 372px;
+  height: 372px;
+  left: -52px;
+  top: 417px;
+
+  background: rgba(254, 127, 46, 0.2);
+  filter: blur(120px);
+}
+
+/* =========================================MAIN PAGE STYLING================================
+============================================================================================= */
+.main_landing_page {
+  font-family: "Michroma";
+  font-style: normal;
+  height: 100vh;
+  margin: 0;
+  padding: 7% 10.5%;
+}
+
+/* ================================ HEADER STYLING =============================================
+============================================================================================= */
+.shipp_logo {
+  flex: 72.1px 0 0;
+  width: 72.1px;
+  height: 52.12px;
+}
+
+/* overiding bootstrap navbar list options styling */
+.nav_list {
+  position: relative;
+  top: -35px;
+  justify-content: right;
+}
+
+.nav_list li {
+  margin: 0 40px;
+}
+
+.nav_list li:last-child {
+  margin-right: 0;
+}
+
+.nav_list ul li a {
+  color: #fe7f2e;
+  white-space: nowrap;
+}
+
+/* ====================================== SEARCH FIELD STYLING ===================================
+=============================================================================================== */
+.search {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.search input[type="text"] {
+  border-radius: 10px;
+  border: 1px solid #233d4c;
+}
+
+.search input[type="submit"] {
+  border: 1px solid #233d4c;
+  background: transparent;
+  height: 30px;
+  border-radius: 10px;
+  background: #fe7f2e;
+  border: none;
+  color: #ffffff;
+}
+
+/* ====================================== REST OF PAGE CONTAINER ============================
+============================================================================================= */
+.page_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 85px;
+}
+
+.text_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-size: 17px;
+  line-height: 21px;
+}
+/* shipp it text heading */
+.heading {
+  color: #fe7f2e;
+  font-family: "Michroma";
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.text_col span {
+  font-weight: 600;
+  color: #000000;
+}
+.text_col p {
+  font-weight: 400;
+  color: #2c293a;
+}
+
+.delivary_logo {
+  flex: 395px 0 0;
+  height: 344px;
+  mix-blend-mode: multiply;
+}
+
+.btn_row button {
+  /* width: 152px; */
+  margin-right: 45px;
+  border: 1px solid #233d4c;
+  background: transparent;
+  height: 47px;
+  border-radius: 10px;
+  white-space: nowrap;
+  color: #233d4c;
+}
+
+.btn_row button:hover {
+  background: #fe7f2e;
+  color: #ffffff;
+  border: none;
+}
+
+/* ========================================== STYLING FOR SMALLER SCREENS ===============================
+======================================================================================================
+more media queries can be added for mobile devices */
+@media (max-width: 992px) {
+  .main_landing_page {
+    padding: 4% 4%;
+  }
+  .nav_list li {
+    margin: 0;
+    text-align: right;
+  }
+
+  .page_container {
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+/* logo of woman carrying box */
+  .delivary_logo {
+    margin: auto;
+  }
+}

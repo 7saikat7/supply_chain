@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Shipp IT</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/login.css' %}">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <!-- navigation bar design -->
+        <div class="navbar">
+
+            <img src="{% static '/images/logo.png' %}" class="logo" />
+
+            <ul>
+                <li><a href="{% url 'home' %}" class="active">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ABOUT US </a></li>
+                <li><a href="{% url 'contact-info' %}">CONTACT US </a></li>
+                <li><a href="{% url 'register' %}" class="lgn">Sign Up</a></li>
+
+            </ul>
+        </div>
+        
+
+        <!-- form layout designing -->
+        <div class="head">
+            <div class="lg_section">
+                <span class="logo_name">
+                    Shipp<span class="lg">it</span>
+                </span>
+            </div> 
+
+            {% if messages %}
+            <div>
+            {% for message in messages %}
+                <ul>
+                    <li>{{message}}</li>
+                </ul>
+            {% endfor %}
+            </div>
+            {% endif %}
+
+
+            <!-- form designing -->
+            <form action='' method="POST">
+                {% csrf_token %}
+                <div class="mb form">
+                    {% comment %} <input type="text" class="form-control" id="#" placeholder="Email"> {% endcomment %}
+                    <input type="text" class="form-control" id="#" placeholder="Email" name='email'>
+                </div>
+                <div class="mb form">
+                    {% comment %} <input type="password" class="form-control" id="#" placeholder="Password"> {% endcomment %}
+                    <input type="password" class="form-control" id="#" placeholder="Password" name='password'>
+                </div>
+                <div class="form-check form">
+                    <a href="#" class="fp">Forget Password</a>
+                </div>
+                
+                <div class="form">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+                <hr>
+                <div class="sign_up form"><a href="{% url 'register' %}"> Sign Up</a></div>
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
