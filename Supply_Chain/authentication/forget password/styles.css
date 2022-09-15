@@ -1,0 +1,47 @@
+body{
+    background-color: #F8F8F8;
+}
+
+/* Navbar */
+.myTitle{
+    margin: 0px 10px;
+}
+.myNavbar{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 61px;
+}
+.myRightNavbar{
+    margin-left: 650px;
+}
+
+
+/* Form */
+.myForm{
+    margin-top: 102px;
+    margin-left: 300px;
+}
+.myInput{
+
+    padding-right: 160px;
+
+}
+.orTxt{
+    padding-left: 145px;
+}
+.myButton{
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+
+/* Image */
+.toInline{
+    display: inline-block;
+}
+.myImg{
+
+    margin-left: 110px;
+    margin-bottom: 90px;
+
+}
