@@ -159,6 +159,10 @@ more media queries can be added for mobile devices */
   .main_landing_page {
     padding: 4% 4%;
   }
+
+  .nav_list {
+    margin-top: 32px;
+  }
   .nav_list li {
     margin: 0;
     text-align: right;

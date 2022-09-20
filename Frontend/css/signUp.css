@@ -8,9 +8,9 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
-  overflow: hidden;
-  background: #e0eaf6bf;
+  /* font-family: "Montserrat", sans-serif; */
+  /* overflow: hidden; */
+  /* background: #e0eaf6bf; */
   position: relative;
   z-index: -1;
 }
@@ -28,6 +28,33 @@ body {
 .back-img2 {
   bottom: -20rem;
   left: -5rem;
+}
+
+.pagewrapper{
+  font-family: "Michroma";
+  font-style: normal;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 7% 10.5%;
+}
+
+.page_heading{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+position: relative;
+top:-35px;
+white-space: nowrap;
+}
+
+
+content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 0px;
 }
 
 nav {
@@ -48,15 +75,17 @@ nav h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
+  white-space: nowrap;
 }
 nav a:hover {
   color: black;
 }
 
 main {
-  height: 60vh;
+  /* height: 60vh; */
   display: flex;
-  padding: 0 7rem;
+  flex-wrap: wrap;
+  /* padding: 0 7rem; */
 }
 .sign-img {
   display: block;
@@ -70,9 +99,10 @@ main {
   flex-direction: column;
   justify-content: space-between;
   padding: 1.5rem 2rem;
-  width: 60%;
+  /* width: 60%; */
   border-radius: 10px;
   opacity: 0.85;
+  height: 435px;
 }
 .sign-input input {
   background-color: #e0eaf666;
@@ -116,6 +146,7 @@ section {
 }
 
 .create {
+  white-space: nowrap;
   background-color: #00ab44;
   border: none;
   outline: none;
@@ -123,4 +154,23 @@ section {
   border-radius: 10px;
   padding: 1rem;
   color: white;
+}
+
+
+/* ========================================== STYLING FOR SMALLER SCREENS ===============================
+======================================================================================================
+more media queries can be added for mobile devices */
+@media (max-width: 1290px) {
+  main{
+    display: block;
+  }
+
+  section{
+    padding: 0 5%;
+    height: auto;
+  }
+
+  .pagewrapper{
+    padding: 4% 4%;
+  }
 }
