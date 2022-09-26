@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- importing stylesheet  -->
+    <!-- custom stylesheet  -->
+    <link href="../../landing page/style/landing_style.css" rel="stylesheet" />
+    <link href="../style/contact.css" rel="stylesheet" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- importing fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Michroma"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing page</title>
-	<link rel="stylesheet" href="/style/contact.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-</head>
+    <title>Shipp It</title>
+  </head>
+  <body>
+    <!-- background blurred ellipses css -->
+    <div class="ellipse1"></div>
+    <div class="ellipse2"></div>
+    <div class="main_landing_page">
+      <!-- header can be reused for other pages -->
+      <header>
+        <!-- modified from bootstrap navbar snipper -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid" style="padding: 0">
+            <img src="../../images/shipp_logo.png" class="shipp_logo" />
 
-<body>
-	<div class="main">
-		<div class="navbar">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse nav_list"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Partners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/about_us.html">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/login.html">Pricing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-			<img src="/img/logo.png" class="logo" />
-
-			<ul>
-				<li><a href="#" class="active">HOME</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="pages/about_us.html">ABOUT US </a></li>
-				<li><a href="#">CONTACT US </a></li>
-				<li><a href="pages/login.html" class="lgn">LOGIN</a></li>
-
-			</ul>
-		</div>
-        <!-- ------------------------------------------------------------------------------------------ -->
+      <content>
+        <!-- search bar -->
+ 
 
         <div class="container">
-            <h3>Sign Up</h3>
+            <h3>Contact Us</h3>
             <input type="text" class="name" placeholder="Name">
             <input type="text" class="name" placeholder="Company Name">
             <input type="text" class="name" placeholder="Company Size">
@@ -39,9 +95,8 @@
             
             <input type="button" value="Submit">
         </div>
-        
-	
-        <!-- ------------------------------------------------------------------------------------------- -->
-</body>
 
+      </content>
+    </div>
+  </body>
 </html>
